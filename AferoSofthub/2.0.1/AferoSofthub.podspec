@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.prepare_command = '/usr/bin/unzip AferoSofthub.zip' 
 
   s.weak_frameworks = 'CoreBluetooth', 'SystemConfiguration'
-  s.vendored_frameworks = "AferoSofthub.framework" 
+  s.vendored_frameworks = "AferoSofthub.xcframework" 
 
 end
